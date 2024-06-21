@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/1. Data Types and Keywords" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10. Inheritance" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11. Initialization Block" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12. Overloading and Overriding" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13. Final Keyword" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/2. Type Conversion" isTestSource="false" packagePrefix="PACKAGE_NAME" />
+      <sourceFolder url="file://$MODULE_DIR$/3. Classes and Objects" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/4. Static Members" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/5. Wrapper Classes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/6. Command Line Arguments" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/7. Packages" isTestSource="false" packagePrefix="world" />
+      <sourceFolder url="file://$MODULE_DIR$/8. Access Modifiers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/9. Constructor" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
