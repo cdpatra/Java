@@ -8,14 +8,11 @@ https://www.springframework.org/schema/beans/spring-beans.xsd
 https://www.springframework.org/schema/context
 https://www.springframework.org/schema/context/spring-context.xsd">
 
-	<!-- Configuring life-cycle methods using XML file -->
-	<bean class="com.lifecycle.Samosa" name="s1" init-method="init"
-		destroy-method="destroy">
-		<property name="price" value="10" />
+	<bean class="com.autowiring.Address" name="address">
+		<property name="street" value="temp street" />
+		<property name="city" value="Delhi" />
 	</bean>
 	
-	<!-- Configuring life-cycle methods using interfaces -->
-	<bean class="com.lifecycle.Pepsi" name="p1">
-		<property name="price" value="50" />
-	</bean>
+	<bean class="com.autowiring.Employee" name="emp1" autowire="byName"/>
+		
 </beans>  

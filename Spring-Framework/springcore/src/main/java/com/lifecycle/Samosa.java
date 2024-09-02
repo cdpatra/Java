@@ -8,7 +8,7 @@ public class Samosa {
 	}
 
 	public void setPrice(double price) {
-		System.out.println("Setting price");
+		System.out.println("Setting samosa price");
 		this.price = price;
 	}
 
