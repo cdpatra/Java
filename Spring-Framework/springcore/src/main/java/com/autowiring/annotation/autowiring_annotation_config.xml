@@ -10,8 +10,13 @@
 
 
 	<context:annotation-config />
-	<bean class="com.autowiring.annotation.Address" name="address">
-		<property name="street" value="temp street" />
+	<bean class="com.autowiring.annotation.Address" name="temp1">
+		<property name="street" value="street 1" />
+		<property name="city" value="Delhi" />
+	</bean>
+	
+	<bean class="com.autowiring.annotation.Address" name="temp2">
+		<property name="street" value="street 2" />
 		<property name="city" value="Delhi" />
 	</bean>
 	

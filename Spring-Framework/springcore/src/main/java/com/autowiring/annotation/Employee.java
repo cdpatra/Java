@@ -1,22 +1,22 @@
 package com.autowiring.annotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Employee {
 	@Autowired
+	@Qualifier("temp1") //qualifier is used to resolve ambiguity if there are more than one bean of same type;
 	private Address address;
 
 	public Address getAddress() {
 		return address;
 	}
 
-	@Autowired
 	public void setAddress(Address address) {
 		System.out.println("Auto wiring using setter");
 		this.address = address;
 	}
 
-	@Autowired
 	public Employee(Address address) {
 		super();
 		System.out.println("Auto wiring using Constructor");
